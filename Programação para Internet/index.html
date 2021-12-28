@@ -1,0 +1,34 @@
+<DOCTYPE HTML>
+    <html lang = "pt-br">
+        <title>
+            <meta charset="utf-8">
+            Minha Página
+        </title>
+        <body onload="load()">
+            <!-- <button type="button" onclick="botao()"> Clique aqui! </button> -->
+            
+            <!-- <button type="button" onclick="botao()"> Clique aqui! </button>
+            <h3 id="agradecimento"> </h3>
+             -->
+
+            <button type="button" onclick="redirecionar()"> Clique aqui! </button>
+
+            <p id="red" onclick="redirecionar()"> Clique aqui! </p>
+
+            <!-- Usando o id do documento -->
+            <!-- <p id="mouseMove" onmouseover="trocar()" onmouseout="voltar()"> Passe o mouse aqui! </p> -->
+
+            <!-- Usando o this -->
+            <p onmouseover="trocar(this)" onmouseout="voltar(this)"> Passe o mouse aqui! </p>
+
+            <!-- onChange -->
+            <select onchange="funcaoChange(this)">
+                <option value="1">Valor 1</option>
+                <option value="2">Valor 2</option>
+                <option value="3">Valor 3</option>
+            </select>
+
+            <script src="javascript.js"></script>
+        </body>
+    </html>
+</DOCTYPE>
